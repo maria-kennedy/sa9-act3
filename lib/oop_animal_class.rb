@@ -1,6 +1,4 @@
 
-
-
 class Animal
     attr_accessor :species, :weight, :diet, :nickname
 
@@ -41,7 +39,7 @@ luna = Animal.new("pug puppy", 20, "cheese")
 jellyjubilee = Animal.new("pegasus", 200, "rainbows", "JJ")
 
 
-
+# In-line testing
 # puts "Species: #{luna.species}"
 # puts "Weight: #{luna.weight}"
 # luna.eat("cheese", 3)
